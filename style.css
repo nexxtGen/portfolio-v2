@@ -357,7 +357,7 @@ p {
 }
 #projects .project-info {
   padding: 30px;
-  flex-basis: 35%;
+  flex-basis: 33%;
   height: 100%;
   display: flex;
   align-items: flex-start;
@@ -378,8 +378,17 @@ p {
 #projects .project-info p {
   color: black;
 }
+
+#projects .technologies-used {
+  font-weight: 600;
+}
+
+#projects .proj-links {
+  padding-top: 20px;
+}
+
 #projects .project-img {
-  flex-basis: 65%;
+  flex-basis: 67%;
   height: 300px;
   overflow: hidden;
   position: relative;
